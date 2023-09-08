@@ -1,8 +1,15 @@
-#inc lude <stdio.h> 
+#include <stdio.h>
 
-int main (void) 
+/**
+ * main - Entry point
+ *
+ * Description: A C program that prints with put function
+ *
+ * Return: Alawys 0 (success)
+*/
+
+int main(void)
 {
-
-puts("\"programming is like building a multilngual puzzle");
-return (O);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
