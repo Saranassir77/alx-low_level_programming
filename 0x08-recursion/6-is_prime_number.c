@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * compare - compare between l and n
+ * compares - compare between l and n
  * @n: num
  * @l: int
  * Return: 1 or 0
@@ -27,5 +27,5 @@ int is_prime_number(int n)
 	if (n < 2)
 		return (0);
 	else
-		return (compare(n, 2));
+		return (compares(n, 2));
 }
