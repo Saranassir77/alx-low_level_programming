@@ -4,14 +4,12 @@
  * alloc_grid - returns a pointer to a 2 dimensional array of integers
  * @width: width
  * @height: height
- * Return: 0 or arrays
  */
 
 int **alloc_grid(int width, int height)
 {
 	int **ar;
 	int i, j;
-
 	if (width <= 0 || height <= 0)
 		return (0);
 
